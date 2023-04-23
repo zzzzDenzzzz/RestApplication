@@ -8,6 +8,6 @@
         public string? First_name { get; set; }
         public string? Last_name { get; set; }
         public string? Middle_name { get; set; }
-        public virtual Role? Role { get; set; }
+        public Role? Role { get; set; }
     }
 }
